@@ -1,0 +1,27 @@
+// Program to read ballot no. and to count no. of votes and spoilt votes
+import java.util.*;
+import java.util.Scanner;
+public class Main{
+  public static void main(String args[]){
+    Scanner in = new Scanner(System.in);
+      int[] c = {0,0,0,0,0,0};
+      int spoilt=0;
+      int ch;
+      System.out.println("1. Candidate-1\n2. Candidate-2\n3. Candidate-3\n4. Candidate-4\n5.
+      Candidate-5 \n0. To get result");
+      do{
+        System.out.print("Enter no. to vote candidate : ");
+        ch = in.nextInt();
+        switch(ch){
+          case 1 : c[0]++; break;
+          case 2 : c[1]++; break;
+          case 3 : c[2]++; break;
+          case 4 : c[3]++; break;
+          case 5 : c[4]++; break;
+          default : spoilt++; break;
+        }
+      }while(ch != 0);
+    System.out.println("----RESULT-------");
+    System.out.print("Candidate-1 : "+c[0]+" votes\nCandidate-2 : "+c[1]+" votes\nCandidate-3 : "+c[2]+" votes\nCandidate-4 : "+c[3]+" votes\nCandidate-5 : "+c[4]+" votes\nSpoilt :"+(spoilt-1)+" votes");
+  }
+}
