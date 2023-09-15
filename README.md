@@ -52,6 +52,38 @@ Gross Pay - Up to 2 lakhs - Nil
 Above 2 and up to 3 lakhs - 10% of the Gross Pay
 Above 3 and up to 5 lakhs - 15% of the Gross Pay and  
 Above 5 lakhs 30 % of the Gross Pay, an additional charge of 2% of the tax  will be added to total tax
+<br>
+<br>
+10)Develop an application with an abstract Bank class consisting of below  features: 
+a) Bank_Type (National/International) 
+b) getRoi() is an abstract method 
+c) deposit() 
+d) offerCreditCard 
+∙ Identify various (atleast 4) banks which will extend bank class with below  conditions: 
+o If the bank is type of nationalized the roi is 7% else 8%. The interest is  offered only if the term deposit is minimum of 3 years. 
+o If the bank is international, then it can offer platinum credit card  otherwise not. 
+o Override one of the method and use the concept of dynamic method  dispatch.
+<br>
+<br>
+11)Student class consists the following attributes: 
+a) roll number 
+b) read Number(): to initialize roll number 
+c) print Number(): to display the roll number 
+∙ class Test inherits Student and will identify marks for 2 subjects for each  student and will display the same. 
+∙ Each student can also be recognized with sports weightage using an  interface Sports which will have attributes to assign weightage value and  display it. Each Student is rated with total score which is the summation of  marks in 2 subjects and sports weightage. 
+∙ Develop an application Results to extend Test and implement Sports  which displays the student score card as below: 
+Roll No 
+Marks Obtained in Subject-1 and Subject-2 
+Sports weight 
+Total Score 
+<br>
+<br>
+12)Develop an application which consists of Stack class and include methods to  push and pop the stack elements. Create your own defined Exception class  and handle exceptions while stacks run with “Stack as full” and “Stack under  flow” while calling push() and pop() methods respectively. Implement this  using ‘throws’ and ‘throw’ keywords.
+
+
+
+
+
 
 
 
